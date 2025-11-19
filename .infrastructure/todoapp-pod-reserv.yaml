@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: todoapp-reserv-pod
   labels:
-    app: todoapp
+    app: todolist
   namespace: todoapp
 spec:
   containers:

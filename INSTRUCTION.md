@@ -66,8 +66,8 @@ Check pods with the same label:
 kubectl get pods -l app=todolist -n todoapp -o wide
 
 You should see two pods:
-- todoapp-1
-- todoapp-2
+- todoapp
+- todoapp-reserv-pod
 
 ClusterIP service load balances traffic between them.
 
